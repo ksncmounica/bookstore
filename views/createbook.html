@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>insertbook</title>
+	<link rel="stylesheet" type="text/css" href="../stylesheets/user.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+	<script type="text/javascript" src="../javascripts/createbook.js" ></script>
+</head>
+<body>
+<header>New Book
+</header>
+<section id="sec1">
+	<form id="form">
+	<table id="table1">
+		<tr>
+			<th><span style="color:red;" >*</span>BookISBN:</th>
+			<td><input id="bookisbn" type="text" value="" required="required" /></td>
+		</tr>
+		<tr>
+			<th><span style="color:red;" >*</span>Book Name:</th>
+			<td><input id="bookname" type="text" value=""  required /></td>
+		</tr>
+		<tr>
+			<th><span style="color:red;" >*</span>AuthorId:</th>
+			<td><input id="authorid" type="text" value="" required /></td>
+		</tr>
+		<tr>
+			<th><span style="color:red;" >*</span>Author Name:</th>
+			<td><input id="authorname" type="text" value="" required /></td>
+		</tr>
+		<tr>
+		<th><input id="submit" type="button" onclick="display()" style="border-radius:5px;border-color: #024457; background-color:#02627d; color:white;margin-left:63px;"  value="Save"/></th>
+		<th ><input id="Reset" type="reset" style="border-radius:5px;border-color: #024457; background-color:#02627d; color:white;margin-right:124px;"  value="Reset"/></th>
+		</tr>
+	</table></form>
+</section>
+</body>
+</html>

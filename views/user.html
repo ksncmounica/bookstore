@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>createuser</title>
+	<link rel="stylesheet" type="text/css" href="../stylesheets/user.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+	<script type="text/javascript" src="../javascripts/user.js" ></script>
+</head>
+<body onload="load()">
+<header>NewUser
+</header>
+<section id="sec1">
+	<form id="form">
+	<table id="table1">
+		<tr>
+			<th><span style="color:red;" >*</span>Name:</th>
+			<td><input id="name" type="text" value="" onblur="name1()" required="required" /></td>
+		</tr>
+		<tr>
+			<th><span style="color:red;" >*</span>Email id:</th>
+			<td><input id="email" type="email" value="" onblur="email1()" required /></td>
+		</tr>
+		<tr>
+			<th><span style="color:red;" >*</span>Create a password:</th>
+			<td><input id="password1" type="password" value="" onblur="password()" required /></td>
+		</tr>
+		<tr>
+			<th><span style="color:red;" >*</span>Confirm your password:</th>
+			<td><input id="password2" type="password" value="" onblur="password11()" required /></td>
+		</tr>
+		<tr>
+		<th><input id="save" type="button" onclick="show()"  style="border-radius:5px;border-color: #024457; background-color:#02627d; color:white;margin-left:63px;"  value="Save" disabled="disabled" /></th>
+		<th ><input id="Reset" type="reset" style="border-radius:5px;border-color: #024457; background-color:#02627d; color:white;margin-right:124px;"  value="Reset"/></th>
+		</tr>
+	</table></form>
+</section>
+</body>
+</html>
